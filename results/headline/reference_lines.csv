@@ -1,0 +1,7 @@
+line,value,what
+canon_all,0.518,"Part 1: mean score of 1,443 canonical keyboard pieces, zeros (gated pieces) included"
+canon_all_with_xml2abc_failures,0.516,"same, also counting the pieces xml2abc could not convert as 0"
+canon_among_valid,0.78,Part 1: mean score of the 958 canonical pieces that got a score
+random_notes_2_voices,0.712,"Part 1: unoptimised random notes, 2 voices"
+random_notes_3_voices,0.819,"Part 1: unoptimised random notes, 3 voices"
+part1_best_hack,0.978,Part 1: hill-climbed random notes plus staccato (Part 1 README)

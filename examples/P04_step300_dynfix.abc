@@ -1,0 +1,27 @@
+X:1
+T:Title
+%%score { 2 | 1 }
+L:1/16
+M:2/4
+I:linebreak $
+K:Bb
+V:2 treble nm="Piano"
+V:1 bass 
+V:1
+ !f!.B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .E,,2.[G,B,E]2 .E,,2.[G,B,E]2 | .F,,2.[A,CE]2 !>!B,,4 |
+ .B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .C,2.[G,B,C]2 .F,,2.[A,C]2 | !>(!.B,,2.[F,B,D]2 !>![F,A,CE]4!>)! |
+ !mp!.B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .E,,2.[G,B,E]2 .E,,2.[G,B,E]2 | !<(!.F,,2.[A,CE]2 !>!B,,4!<)! |
+ !mf!.B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .F,,2.[F,A,E]2 .F,,2.[F,A,E]2 | !>(!.B,,2.[F,B,D]2 !>![F,A,CE]4!>)! |
+ !mp!.B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .E,,2.[G,B,E]2 .E,,2.[G,B,E]2 | .F,,2.[A,CE]2 !>!B,,4 |
+ .B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .C,,2.[F,A,E]2 .F,,2.[F,A,E]2 | !>(!.B,,2.[F,B,D]2 !>![F,A,CE]4!>)! |
+ !mp!.B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .F,,2.[F,A,E]2 .F,,2.[F,A,E]2 | B,,2.[F,B,D]2 !>![F,A,CE]4 |
+ .B,,2.[DF]2 .F,,2.[DF]2 | .B,,2.[DF]2 .F,,2.[DF]2 | .F,,2.[F,A,E]2 .F,,2.[F,A,E]2 | !arpeggio![B,,F,D]4 z4 |]
+V:2
+ !f! !>!B3c d4 | !>!f3e .d2.B2 | !>![eg]3[df] .[ce]2.[Bd]2 | !>![Af]4 !>![Bdfb]4 |
+ !>![Bd]3c B4 | !>!B3c d4 | !>![B=eg]3f [c_e]3d | !>(! !>![Fc]8!>)! |
+ !mp! !>!B3c d4 | !>!f3e .d2.B2 | !>![eg]3[df] .[ce]2.[Bd]2 | !<(! !>![Af]4 !>![Bdfb]4!<)! |
+ !mf! !>![Bd]3c B4 | !>![Bd]3c [DB]4 | !>![Aeg]3f [ce]3d | !>(! !>![Bd]4 !>![cfc']4!>)! |
+ !mp! !>![Bd]3c B4 | !>![Bd]3c B4 | !>![eg]3[df] [ce]3[Bd] | !>![Ac]4 !>![Bdfb]4 |
+ !>![Bd]3c B4 | !>![Bd]3c B2 z2 | !>![Aeg]3f [ce]3d | !>(! !>![Bd]4 !>![Fcf]4!>)! |
+ !mp! !>![Bd]3c B4 | !>![Bd]3c B4 | !>![Aeg]3f [ce]3d | [Bd]4 !>![cfc']4 |
+ !>![Bd]3c B4 | !>![Bd]3c B2 z2 | !>![Aeg]3f [ce]3d | !arpeggio!!fermata![Bdfb]4 z4 |]

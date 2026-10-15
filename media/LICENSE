@@ -1,0 +1,19 @@
+The files in this folder (audio renders, score PDFs, Sibelius files and the figure) are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Leah Childers
+
+The audio (audio/*.mp3) was rendered with the Salamander Grand Piano V3 sample set by Alexander Holm, licensed
+under CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/), in the SF2 conversion made for the FreePats
+project, version V3+20200602
+(https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPiano-SF2-V3+20200602.tar.xz). That attribution
+applies to the audio and must be kept with it.
+
+The music:
+- p13-*: entirely written by the Neurallegro model (the prompt was a key signature, a time signature, a tempo and
+  clefs, with no notes).
+- p03-*: the first two bars (the pickup and the first full bar) are from "Adeste Fideles" ("O Come All Ye
+  Faithful"), arranged by Samuel Webbe (public domain); everything after
+  bar 2 was written by the model.
+- p04-*: the first four bars are a short march opening written for testing this project; everything after bar 4
+  was written by the model (in p04-step300 the model also added one note to the last chord of bar 4).

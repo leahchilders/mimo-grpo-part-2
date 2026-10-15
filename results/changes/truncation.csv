@@ -1,0 +1,3 @@
+step,n,n_ended,n_hit_2048_tokens,valid_rate_ended,valid_rate_truncated,mean_reward_ended,mean_reward_truncated
+0,928,853,75,0.8441,0.5867,0.6168,0.4801
+300,928,778,151,0.9692,0.8667,0.7756,0.7516

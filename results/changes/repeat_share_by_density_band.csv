@@ -1,0 +1,6 @@
+notes_per_bar_band,n_pieces_step0,n_pieces_step300,repeat_share_step0,repeat_share_step300,second_half_novelty_step0,second_half_novelty_step300
+0-8,220,84,0.3502,0.1609,0.6939,0.8474
+8-12,203,155,0.1493,0.1025,0.9009,0.9285
+12-16,280,245,0.1384,0.0772,0.8984,0.9465
+16-24,168,341,0.1249,0.0586,0.9079,0.9603
+24-inf,10,87,0.2385,0.0375,0.819,0.9934

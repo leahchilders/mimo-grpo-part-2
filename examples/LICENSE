@@ -1,0 +1,8 @@
+The files in this folder (MusicXML, ABC and MIDI of the six example pieces, and scores.json) are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Leah Childers
+
+The music: P03's first two bars (the pickup and the first full bar) are from "Adeste Fideles" ("O Come All Ye
+Faithful"), arranged by Samuel Webbe (public domain). P04's first four bars are a short march opening written for
+testing this project. Everything else was written by the Neurallegro model.

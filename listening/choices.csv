@@ -1,0 +1,16 @@
+pair,prompt_kind,step_heard_as_A,step_heard_as_B,chosen_letter,preferred_step,step300_truncated,shown_in_post
+P01,test_header,0,300,B,300,no,no
+P02,test_header,0,300,B,300,no,no
+P03,test_opening,300,0,A,300,no,yes
+P04,seed,300,0,B,0,no,yes
+P05,test_opening,300,0,B,0,yes,no
+P06,seed,0,300,B,300,no,no
+P07,test_opening,300,0,B,0,no,no
+P08,test_header,300,0,A,300,no,no
+P09,test_opening,0,300,B,300,yes,no
+P10,test_opening,0,300,B,300,yes,no
+P11,test_opening,0,300,B,300,no,no
+P12,test_opening,300,0,B,0,no,no
+P13,test_header,300,0,A,300,no,yes
+P14,test_opening,300,0,A,300,no,no
+P15,test_header,0,300,B,300,no,no

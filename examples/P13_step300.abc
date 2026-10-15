@@ -1,0 +1,48 @@
+X:1
+T:Title
+%%score { ( 2 4 ) | ( 1 3 ) }
+L:1/16
+Q:1/4=96
+M:3/4
+I:linebreak $
+K:Ab
+V:2 treble nm="Piano"
+V:4 treble 
+V:1 bass 
+V:3 bass 
+V:1
+ x8 [A,,C]4 | [A,,C]3[A,,C] [A,,C]4 [A,C]4 | [A,E]3[A,E] [A,E]4 [A,C]4 | %3
+ [D,D]3[D,D] [D,D]4 [D,D]4 | [A,C]3[A,C] [A,C]2 z2 [E,B,]3[E,B,] | [A,C]6 [A,C]2 [A,E]2[A,C]2 | %6
+ [D,D]2[D,D]2 [D,A,]4 [E,B,]4 | [A,,C]12 | [A,C]4 [A,C]3[A,E] [A,C]2[A,C]2 | %9
+ [D,D]6 [D,D]2 [D,D]2[D,D]2 | [A,D]2[A,C]2 [A,C]4 [A,E]4 | [E,D]2[E,C]2 [A,C]8 | %12
+ [A,C]4 [A,,C]4 [A,,C]4 | [D,D]6 [D,D]2 [D,D]2[D,D]2 | [A,C]6 [A,E]2 [A,C]2[F,=D]2 | %15
+ [E,E]6 [E,B,]2 [E,E]2[E,D]2 | [A,,C]8 [A,,C]4 | [A,,C]6 [A,,A,]2 [A,,A,]2[A,,A,]2 | z12 | z12 | %20
+ z12 | z12 | A,,4 z4 [A,C]3[A,C] | [A,C]6 [A,C]2 [A,E]2[A,C]2 | [D,D]6 [D,D]2 [D,D]2[D,D]2 | %25
+ [D,A,]6 [D,A,]2 [D,A,]2[D,D]2 | _G,,6 =G,,2 A,,2=A,,2 | B,,6 B,,2 [B,,F,]2[B,,A,]2 | %28
+ [E,A,]6 E,2 E,2E,2 | [A,,A,]6 [A,,A,]2 [A,,A,]2[A,,A,]2 | [A,,A,]6 [A,,A,]2 [A,,A,]2[A,,A,]2 | %31
+ [A,,A,]6 z2 z2 [A,C]2 | [A,C]6 [A,C]2 [A,C]2[A,C]2 | [D,D]6 [D,A,]2 [D,A,]2[D,A,]2 | %34
+ [D,A,]6 [D,A,]2 [D,A,]2[D,D]2 | _G,,6 =G,,2 A,,2=A,,2 | B,,6 B,,2 [B,,F,]2[B,,A,]2 | %37
+ [E,A,]4 [E,C]4 [E,D]4 | [A,,CE]8 z2 |] %39
+V:2
+ x8 [EA]4 | [EA]3[EA] [EA]4 [EA]4 | [Ac]3[Ac] [Ac]4 [Ae]4 | [Af]3[Bg] [Af]4 [Af]4 | %4
+ [Ae]3[Ae] [Ae]2 z2 [Ge]3[Ge] | [Ae]6 [Ae]2 [Ac]2[Ae]2 | [FB]2[FA]2 [DF]4 [EG]4 | [EA]12 | %8
+ [Ae]4 [Ae]3[Ac] [Ae]2[A_g]2 | [Af]6 [FA]2 [Fd]2[Af]2 | [Af]2[Ae]2 [Ae]4 [Ac]4 | [GB]2A2 [Ae]8 | %12
+ [Aa]4 [Ae]4 [Aa]4 | [Af]6 [FA]2 [Fd]2[Af]2 | [Ae]6 [Ac]2 [Ae]2A2 | [GB]6 [Gd]2 [Gc]2[GB]2 | %16
+ [EA]8 [CE]4 | [CE]6 [CE]2 [=DF]2[CE]2 | z4 z4 z4 | z12 | c4 z4 z4 | z12 | [CA]4 z4 [Ae]3[Ae] | %23
+ [Ae]3[Ae] [Ac]2[Ae]2 [Ac]2[Ae]2 | [FB]3[Fc] [FB]2[Ff]2 [F=e]2[Ff]2 | %25
+ [Ff]3[Af] [_Ge]2[Ec]2 [DB]2[DF]2 | [B,_GB]3[CGA] [DGB]2[B,Ed]2 [CEc]2[EGe]2 | %27
+ [E_Gc]3[DFB] [DFB]3[DFB] [=DAB]2[B,DB]2 | [EAc]3[EGd] [EAc]3[=DFB] [B,EG]2[EGB]2 | %29
+ [EAc]6 [EBd]2 [EAc]2[EGB]2 | [EAc]6 [EBd]2 [EAc]2[EGB]2 | x8 z2 ee | e6 ee e2e2 | %33
+ [FB]3[Fc] [FB]2[Ff]2 [F=e]2[Ff]2 | [Ff]3[Af] [_Ge]2[Ec]2 [DB]2[DF]2 | %35
+ [B,_GB]3[CGA] [DGB]2[B,Ed]2 [CEc]2[EGe]2 | [E_Gc]3[DFB] [DFB]3[DFB] [=DAB]2[B,DB]2 | %37
+ [CEAc]2-[CEAc]2 [EAe]4 [EGBd]4 | [Acea]8 z2 |] %39
+V:3
+ x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | %16
+ x12 | x12 | [A,,A,]2[A,,E,]2 .[A,,E,]4 .[A,,E,]4 | .[A,,E,]4 .[A,,E,]4 .[A,,E,]4 | %20
+ [A,,E,]4 [A,,E,]4 E,4 | [A,,E,]4 z4 z4 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | %31
+ x12 | x12 | x12 | x12 | x12 | x12 | x12 | x10 |] %39
+V:4
+ x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | %16
+ x12 | x12 | [CA]6 [DB]2 [CA]2[B,G]2 | [CA]6 [DB]2 [Ec]4 | [CE]4 [CE]4 [B,G]3[EA] | %21
+ [DB]6 [CA]2 [DB]2[=Ec]2 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | x12 | [CA]6 z2 z2 A2 | %32
+ A6 A2 A2A2 | x12 | x12 | x12 | x12 | x12 | x10 |] %39

@@ -1,0 +1,12 @@
+# third-party tools fetched by setup.sh
+third_party/
+
+# Python
+__pycache__/
+*.pyc
+
+# scratch output of reward/score_examples.py
+reward/out/
+
+# written by results/curve/make_figure1.py (the article's copies are in media/img/)
+results/curve/figure1_*

@@ -1,0 +1,58 @@
+Three small fixes to xml2abc.py version 177 (Wim Vree, LGPL), applied by setup.sh.
+This is the xml2abc the Part 2 reward used. Apply from the folder holding xml2abc.py:
+    patch -p1 < xml2abc-177.patch
+
+Each hunk touches only code that used to raise an exception, so any file that converted before still takes
+exactly the same path through the code. Checked on Part 1's 1,443 canonical keyboard pieces: ABC byte-identical
+and score identical for all 1,443.
+
+1. Additive meters (doAttr). <beats>2+2+3</beats> crashed int(beats). Now it writes M:(2+2+3)/8 (header or
+   inline [M:...]) and sets the internal meter to the sum (7/8). abc2midi 5.04 accepts this form (in our test, the
+   MIDI was byte-identical to the same piece written as M:7/8). Integer meters are unchanged.
+2. Pedal change (doDirection). <pedal type="change"/> raised ValueError('wrong direction type'). Now it writes
+   !ped-up!!ped! (lift and re-press) at that point and leaves the pedal down. Other unknown direction types still
+   raise. (Pedal is MIDI CC64, which the MiMo scorer ignores.)
+3. Overfull 5/8 and 7/8 bars (bpltel). A note starting at or after the 7th eighth indexed past the end of a
+   7-element list (IndexError). The index is now clamped to 6. The value only matters with --rbm, which this
+   route never passes, so this changes output only for files that crashed before.
+
+Why: the model writes these three things (additive meters, pedal changes, occasionally an overfull bar), and the
+unpatched converter crashed on them, which would have excluded those pieces from training instead of scoring them.
+The run's copy differs from the result of this patch only in the wording of the three "# PATCH" comments.
+
+--- a/xml2abc.py
++++ b/xml2abc.py
+@@ -631,7 +631,7 @@
+     tel = int (nx.tijd // noemer)   # == floor ()
+     if metrum [1] == 8:
+         if metrum [0] == 7 or metrum [0] == 5:
+-            tel = [0,0,0,1,1,2,2][tel]
++            tel = [0,0,0,1,1,2,2][min (tel, 6)]  # PATCH (Part 2): overfull 5/8 or 7/8 bar (onset >= 7 eighths); tel only matters with --rbm
+         else:
+             tel = int (tel // 3)
+     return tel, noemer
+@@ -1293,9 +1293,13 @@
+         if beats:
+             unit = e.findtext ('time/beat-type')
+             mtr = beats + '/' + unit
++            if '+' in beats:    # PATCH (Part 2): additive meter (e.g. 2+2+3) -> M:(2+2+3)/8, numerator = sum
++                mtr = '(%s)/%s' % ('+'.join (b.strip () for b in beats.split ('+')), unit)
++                nbeats = sum (int (b) for b in beats.split ('+'))
++            else: nbeats = int (beats)
+             if first: abcOut.mtr = mtr          # first measure -> header
+             else: s.msr.attr += '[M:%s]' % mtr  # otherwise -> voice
+-            s.msr.mtr = int (beats), int (unit)
++            s.msr.mtr = nbeats, int (unit)
+         s.msr.mdur = (s.msr.divs * s.msr.mtr[0] * 4) // s.msr.mtr[1]   # duration of measure in xml-divisions
+         for ms in e.findall('measure-style'):
+             n = int (ms.get ('number', '1'))    # staff number
+@@ -1400,6 +1404,9 @@
+                 else:                               # closing direction found before opening
+                     s.dirStk [k] = ('stop', s.msc.tijd)
+                     x = ''                          # delay code generation until opening found
++            elif type == 'change' and dtype == 'pedal': # PATCH (Part 2): pedal change = lift + re-press at this point
++                x = '!ped-up!!ped!'
++                if k not in s.dirStk: s.dirStk [k] = (('start', vs))  # pedal is down after the change
+             else: raise ValueError ('wrong direction type')
+             addDirection (x, vs, None, stfnum)
+         tempo, wrdstxt = None, ''

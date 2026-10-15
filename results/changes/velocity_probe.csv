@@ -1,0 +1,8 @@
+piece,reward_as_is,reward_all_velocities_80,reward_velocities_inverted,roughness_p90_subscore_as_is,roughness_p90_subscore_v80,roughness_p90_subscore_inverted
+P03_step0,0.747,0.747,0.747,1.0,1.0,1.0
+P03_step300,0.929,0.929,0.929,1.0,1.0,1.0
+P04_step0,0.866,0.864,0.851,1.0,0.958,0.75
+P04_step300,0.885,0.882,0.870,0.792,0.75,0.542
+P13_step0,0.734,0.734,0.734,1.0,1.0,1.0
+P13_step300,0.876,0.876,0.876,1.0,1.0,1.0
+max |change| over all 30 listening pieces,,0.003,0.015,,,

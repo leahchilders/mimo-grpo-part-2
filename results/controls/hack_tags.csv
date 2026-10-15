@@ -1,0 +1,9 @@
+tag,what_it_undoes,borderline_rulings_applied,share_of_valid_step0,share_of_valid_step300,rise,rise_ci_lo,rise_ci_hi,share_of_all_step0,share_of_all_step300,amplified,emerged
+T1t,meter tricks: re-bar the piece at its own meter (tie-split; the official variant),False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False
+T1n,meter tricks: re-bar the piece at its own meter (naive; descriptive),False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False
+T2,note-value grid shift: re-score with the scorer's sonority grid shifted 30 ticks,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False
+T3,"decoration spam and silent voices: drop zero-volume voices, strip staccato, fermatas and trills",False,0.0013,0.0,-0.0013,-0.0055,0.0,0.0011,0.0,False,False
+T1t,meter tricks: re-bar the piece at its own meter (tie-split; the official variant),True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False
+T1n,meter tricks: re-bar the piece at its own meter (naive; descriptive),True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False
+T2,note-value grid shift: re-score with the scorer's sonority grid shifted 30 ticks,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False
+T3,"decoration spam and silent voices: drop zero-volume voices, strip staccato, fermatas and trills",True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,False

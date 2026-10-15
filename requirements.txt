@@ -1,0 +1,2 @@
+# The MiMo scorer and the reward wrapper are stdlib-only; this is for results/curve/make_figure1.py.
+matplotlib==3.10.9

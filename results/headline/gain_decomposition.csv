@@ -1,0 +1,6 @@
+part,value
+mean_all_step0,0.6057
+mean_all_step300,0.7717
+gain,0.166
+"validity_part (valid rate 0.823 -> 0.953, at step-0 quality)",0.0951
+"quality_part (mean among valid 0.736 -> 0.810, at step-300 validity)",0.0708
