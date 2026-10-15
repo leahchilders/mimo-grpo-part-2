@@ -11,9 +11,6 @@ training (step 0) and one from after (step 300), continuing the same test prompt
 - `step300_truncated`: "yes" when the step-300 piece hit the 2,048-token limit and stops mid-phrase;
 - `shown_in_post`: P03, P04 and P13 are the pairs in the article (audio and files in `media/` and `examples/`).
 
-Only these choices are published. The other 12 pairs' audio and prompts, and the listener's notes, are not in this
-repo. Three of the openings (P05, P09, P10) are arrangements of modern songs.
-
 Source: the listening key (A/B order per pair) and the un-keyed result (`KEY.json`, `unkey_results.json`).
 
 ## Protocol
